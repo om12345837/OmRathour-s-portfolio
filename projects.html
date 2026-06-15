@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Projects</title>
+
+<style>
+body{
+    background:#111827;
+    color:white;
+    font-family:Arial,sans-serif;
+}
+
+.back-btn{
+    position:fixed;
+    top:20px;
+    left:20px;
+    text-decoration:none;
+    background:#38bdf8;
+    color:white;
+    padding:10px 15px;
+    border-radius:8px;
+}
+
+.projects{
+    max-width:1000px;
+    margin:80px auto;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:#000;
+    border:3px solid white;
+    border-radius:15px;
+    overflow:hidden;
+    padding:15px;
+}
+
+.card img{
+    width:100%;
+    height:200px;
+    object-fit:cover;
+    border-radius:10px;
+}
+
+.card h2{
+    color:gold;
+}
+
+.btns{
+    display:flex;
+    gap:10px;
+    margin-top:15px;
+}
+
+.btn{
+    text-decoration:none;
+    padding:10px 20px;
+    border-radius:8px;
+    color:white;
+}
+
+.demo{
+    background:orange;
+}
+
+.github{
+    background:#374151;
+}
+</style>
+</head>
+
+<body>
+
+<a href="index.html" class="back-btn">⬅ Back</a>
+
+<div class="projects">
+
+    <!-- Todo Project -->
+    <div class="card">
+        <img src="images/todo.png" alt="Todo App">
+
+        <h2>Todo App</h2>
+
+        <p>
+            A simple task management web application.
+        </p>
+
+        <div class="btns">
+            <a href="TODO.html" class="btn demo">Open</a>
+        </div>
+    </div>
+
+    <!-- Job Portal -->
+    <div class="card">
+        <img src="images/jobportal.png" alt="Job Portal">
+
+        <h2>Job Portal</h2>
+
+        <p>
+            Online job searching and recruitment platform.
+        </p>
+
+        <div class="btns">
+            <a href="jobportel.html" class="btn demo">Open</a>
+        </div>
+    </div>
+
+    <!-- Clothes Shop -->
+    <div class="card">
+        <img src="images/shop.png" alt="Clothes Shop">
+
+        <h2>Clothes Shop</h2>
+
+        <p>
+            Modern e-commerce website for clothing products.
+        </p>
+
+        <div class="btns">
+            <a href="clothesShop.html" class="btn demo">Open</a>
+        </div>
+    </div>
+    <!-- Tic Tac Toe -->
+<div class="card">
+    <img src="images/tictactoe.png" alt="Tic Tac Toe">
+
+    <h2>Tic Tac Toe Game</h2>
+
+    <p>
+        Interactive Tic Tac Toe game built using HTML, CSS and JavaScript.
+    </p>
+
+    <div class="btns">
+        <a href="tictactoe.html" class="btn demo">Open</a>
+    </div>
+</div>
+
+<!-- Student Grade Calculator -->
+<div class="card">
+    <img src="images/gradecalculator.png" alt="Grade Calculator">
+
+    <h2>Student Grade Calculator</h2>
+
+    <p>
+        Calculate total marks, percentage and grade instantly.
+    </p>
+
+    <div class="btns">
+        <a href="gradecalculator.html" class="btn demo">Open</a>
+    </div>
+</div>
+   
+
+</div>
+
+</body>
+</html>
